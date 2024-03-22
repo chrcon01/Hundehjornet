@@ -49,20 +49,20 @@ body {
 .container .main_info .nav ul li a.nav_text {
   text-decoration: none;
   color: #FFF;
-  font-family: "Madimi One, sans-serif;";
+  font-family: "Madimi One, sans-serif";
   font-weight: 700;
   font-size: 3.125rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .container .main_info .footer_text {
   margin-top: 10%;
-  margin-left: 35%;
+  margin-left: 30%;
   position: absolute;
   z-index: 3;
+  font-family: "Arvo", serif;
   color: #FFF;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Arvo", serif;
   font-size: 1.875rem;
   font-weight: 400;
   font-style: normal;
@@ -109,13 +109,12 @@ header,
 .info_text,
 .info_text_k {
   color: #000;
-  font-family: "Baloo Bhai 2", sans-serif;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.1875rem;
   border-radius: 3rem;
-  background-color: white;
+  background-color: #FFF;
   flex-shrink: 0;
   padding: 5%;
   margin-left: 10%;
@@ -124,30 +123,30 @@ header,
 .info_text.info_text,
 .info_text_k.info_text {
   width: 32.6875rem;
-  height: 14.4375rem;
+  height: 16rem;
 }
 .info_text.info_text_k,
 .info_text_k.info_text_k {
   width: 32.6875rem;
-  height: 24.6875rem;
+  height: 27rem;
 }
 
 .h2_traning {
   color: #000;
-  font-family: "Baloo Bhai 2", sans-serif;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.1875rem;
+  font-family: "Arvo", serif;
 }
 
 .p_traning {
   color: #000;
-  font-family: "Baloo Bhai 2", sans-serif;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.1875rem;
+  font-family: "Arvo", serif;
 }
 
 .footer_text_2 {
@@ -165,6 +164,7 @@ header,
     background-image: url(alvan-nee-T-0EW-SEbsE-unsplash.jpg);
     width: 100vw;
     height: 100vh;
+    align-items: center;
   }
   .container .main_info .orange_form {
     width: 820px;
@@ -202,12 +202,12 @@ header,
   }
   .info_text.info_text, .info_text_k.info_text {
     width: 22.6875rem;
-    height: 13.4375rem;
+    height: 15rem;
     padding: 4%;
   }
   .info_text.info_text_k, .info_text_k.info_text_k {
     width: 22.6875rem;
-    height: 24.6875rem;
+    height: 28rem;
     padding: 4%;
   }
   .info_text, .info_text_k {
@@ -276,6 +276,11 @@ header,
     grid-template-columns: 1fr;
     gap: 0%;
     justify-items: center;
+  }
+  .container .main_info .footer_text {
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 1.2rem;
   }
 }
 
